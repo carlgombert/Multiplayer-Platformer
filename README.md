@@ -1,2 +1,2 @@
-# Multiplayer-Platformer
+# Multiplayer Platformer
 Multiplayer Platform Shooter
