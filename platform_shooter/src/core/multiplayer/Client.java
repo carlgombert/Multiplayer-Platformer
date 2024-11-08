@@ -72,7 +72,7 @@ public class Client implements Runnable{
 	}
 	
 	public void sendMessage(String message) {
-		if(!client.isClosed()) {
+		if(!done && !client.isClosed()) {
 			out.println(message);
 		}
 	}
